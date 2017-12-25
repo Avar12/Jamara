@@ -29,3 +29,9 @@ Contras:
 Jamara does have configurables which allows the user to adjust Jamara in order to work in harmony with the server.
 However, setting all configurable values to the maximum will unfortunately have impact on your CPU.
 Further __configurations__ can be found in this repository.
+
+# Get Jamara
+Jamara will be open source in the future. But it is just not done yet !
+If you want to receive an official version of Jamara ask for a key and the download. 
+Put the Jamara.jar file into your plugins-folder and start your server. To enable Jamara you will have to enter the key you have received into the console when demanded.
+You only have to enter the code __once__, it will automatically save and authenticate your version every time you reload the server.
