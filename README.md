@@ -19,7 +19,7 @@ Contras:
 Jamara will soon offer an external version which works over a __Adapter-Plugin__.
 This method of using Jamara allows your server to acces the __Jamara servers__ over the __Jamara Adapter-Plugin__, and to proceed the calculations over these servers.
 Pros:
-    -Complete relief of your servers CPU while processing the results
+    -Complete relief of your servers CPU while proceeding the results
 Contras:
     -Delayed results due to the latency of your connection to the Jamara servers
     -Depends on external servers
