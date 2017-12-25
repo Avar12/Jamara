@@ -1,0 +1,46 @@
+#Jamara Configuration
+
+*Raycasting/Hitscan/Ballistics
+*A vector powered algorithm which states whether a player is aiming at an object hes in interaction with.
+-raycast{
+
+   *Do you want Jamara to proceed the calculations stated above ?
+   enabled: true;
+   
+   *Do you want Jamara to monitor every step this algorithm does (useful for issue finding)
+   *Not recommended for running servers
+   monitor: false;
+   
+   
+   *In this subsection of the sur-section you can configure the performance of the calculations in your favour
+   *Some configurations may result in lower CPU usage but could also cause irreliable results
+   -performance{
+         
+         *Adjust into how many subvectors a vector should be divided in order to gain a much more accurate and reliable result.
+         *ATTENTION: this value can go from 0 to any positive number.
+         * -low value: less CPU-usage, inaccurate result
+         * -high value: more CPU-usage, accurate result
+         divisions: 20;
+         
+         
+         *Decide how many ticks before and after an interaction, a player should have looked at the objects hitbox once
+         *ATTENTION: positive value from 0 to any number, this does not have any impact on the CPU
+         * -low value: quick result, higher probability of false positives
+         * -high value: slower result, high reliability
+         * -the variable x replaces your set value, 2 multiplied with x is the time in ticks it will take the check to decide.
+         ticks_waited: 3;
+         
+       
+         *State whether the check should excempt in certain conditions or just blindfoldedly proceed a calculation.
+         *ATTENTION: this does not have any influence on the CPU-usage, if stated true, but might result in abuse, if stated false.
+         blindfolded: false;
+         
+         
+         *Adjust the size of the hitbox the player is in interaction with in oder to more likely receive an expected result.
+         *ATTENTION: this can cause a lot of false positives 
+         * -low value: most likely false positives, can be used as a method to track how accurately a player is aiming
+         * -high value: decrease the possibility of false positives by giving the player more space to interact.
+         hitbox_adjustment: 0.2;
+  
+   }
+}
