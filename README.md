@@ -28,4 +28,4 @@ Contras:
 # CPU and Configuration
 Jamara does have configurations which allow the specific user to adjust Jamara in order to work in harmony with the server.
 However, settingg all configurable values to the maximum will pretty surely have impact on your CPU.
-Further __configurations can be found in this repository.
+Further __configurations__ can be found in this repository.
