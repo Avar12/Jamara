@@ -8,7 +8,7 @@ Jamara does __not__ rely on heuristics or any other unsafe analysis.
 
 # Internal
 Jamaras internal-version works out of the box and like any other spigot plugin.
-It only relies on __ProtocolLib__ , so if you expect good results make sure you have the latest version of __Jamara__ and __ProtoclLib__ installed inside your plugins folder.
+It only relies on __ProtocolLib__ , so if you expect good results make sure you have the latest version of __Jamara__ and __ProtocolLib__ installed inside your plugins folder.
 Pros:
     -Fast and reliable results
     -Internal usage and monitoring
@@ -26,7 +26,7 @@ Contras:
     
     
 # CPU and Configuration
-Jamara does have configurables which allows the user to adjust Jamara in order to work in harmony with the server.
+Jamara does have configurables which allow the user to configure Jamara in order to work in harmony with the server.
 However, setting all configurable values to the maximum will unfortunately have impact on your CPU.
 Further __configurations__ can be found in this repository.
 
