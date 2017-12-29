@@ -38,4 +38,14 @@ You only have to enter the code __once__, it will automatically save and authent
 
 # Discord
 A community discord server is already being planned.
-Annauthenication over out Discord-Bot will be a must to be able to use Jamara.
+An authenication via our Discord-Bot will be one of a hand full of conditions you have me to be allowed to use Jamara.
+
+# Lang
+We offer a medium size stack of compatible languages, none of the are hardcoded but written down into multiple json-files.
+Some of the available languages:
+       -English
+       -French
+       -German
+       -Spanish
+       -Italian
+       -Chinese
